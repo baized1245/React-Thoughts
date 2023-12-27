@@ -96,8 +96,8 @@ const PostDetails = () => {
         </div>
          {/* write a comment */}
          <div className="w-full mt-4 flex flex-col md:flow-row">
-             <input type="text" placeholder="Write a comment" className="md:w-[80%] outline-none py-2 px-4 mt-4 md:mt-0 bg-gray-200"/>
-             <button className="bg-black text-sm text-white px-2 py-2 md:w-[20%] mt-4 md:mt-4 rounded-lg">Add Comment</button>
+             <input type="text" placeholder="Write a comment" className=" outline-none py-2 px-4 mt-4 md:mt-0 bg-gray-200 rounded-md"/>
+             <button className="bg-black text-sm text-white px-2 py-2 mx-auto mt-4 md:mt-4 rounded-lg">Add Comment</button>
          </div>
       </div>
       <Footer />
